@@ -1,0 +1,16 @@
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\bin\Debug\LogicielNettoyagePC.exe.config
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\bin\Debug\LogicielNettoyagePC.exe
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\bin\Debug\LogicielNettoyagePC.pdb
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.csproj.AssemblyReference.cache
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.csproj.SuggestedBindingRedirects.cache
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\MainWindow.g.cs
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\App.g.cs
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC_MarkupCompile.cache
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC_MarkupCompile.lref
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\MainWindow.baml
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.g.resources
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.Properties.Resources.resources
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.csproj.GenerateResource.cache
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.csproj.CoreCompileInputs.cache
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.exe
+C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\LogicielNettoyagePC\LogicielNettoyagePC\obj\Debug\LogicielNettoyagePC.pdb
