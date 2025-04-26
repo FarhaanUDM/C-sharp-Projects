@@ -1,0 +1,94 @@
+﻿<Window x:Class="Meteo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Meteo"
+        mc:Ignorable="d"
+        Title="Meteo Weather" Height="450" Width="792" Icon="/669958_weather_cloud_forecast_sun_icon (1).png" ResizeMode="NoResize">
+    <DockPanel LastChildFill="False" Height="430" Background="White" Margin="0,2,0,1">
+        <StackPanel DockPanel.Dock="Left" Width="195" Background="#FF6F6565">
+            <StackPanel Orientation="Horizontal" Margin="0,5,0,5">
+                <Image Width="60" Height="60"  Source="C:\Users\mouha\OneDrive\Desktop\UDM Course\C#\C# .NET\Meteo\Meteo\669958_weather_cloud_forecast_sun_icon (1).png" Margin="4,0,0,0"/>
+                <Label Content="Météo" VerticalAlignment="Center" Panel.ZIndex="-1" FontSize="36" FontWeight="Bold" />
+            </StackPanel>
+            <Label Margin="0,5" HorizontalAlignment="Center" Content="Enter City" VerticalAlignment="Center" Panel.ZIndex="-1" FontSize="16" FontWeight="Bold" />
+            <TextBox Margin="5" Height="25" Name="cityText"/>
+            <Button Margin="5,2,5,5" Name="btnSearch" Click="btnSearch_Click">SEARCH</Button>
+            <Separator Height="20" Margin="0" />
+            <Button Content="INFOS" Margin="5" Height="25" Name="btnInfos" Click="btnInfos_Click" />
+            <Label Margin="0,5,0,5" HorizontalAlignment="Center" Content="@Sfotware version 1.0.1" VerticalAlignment="Center" Panel.ZIndex="-1" FontSize="14" />
+        </StackPanel>
+
+        <Canvas Background="White">
+            <Image Name="headerImg" Height="250" VerticalAlignment="Center" Width="598" HorizontalAlignment="Center" Source="/winter.png" Stretch="Fill"/>
+            <Label Name="cityTitle" Content="" FontSize="55" FontWeight="Bold" HorizontalAlignment="Left" Canvas.Left="258" VerticalAlignment="Center" Width="330" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="-0.273"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="-0.809"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Label Name="tempTxt" Content="+15*C" FontSize="55" FontWeight="Bold" HorizontalAlignment="Left" Canvas.Left="20" VerticalAlignment="Top" Width="194" Canvas.Top="80">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Label Name="dateTxt" Content="Lundi 5 April 2024" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Canvas.Left="258" VerticalAlignment="Center" Width="293" Canvas.Top="200">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Label Name="weatherDesc" Content="Nuageux" FontSize="25" FontWeight="Bold" HorizontalAlignment="Left" Canvas.Left="409" VerticalAlignment="Center" Width="182" Canvas.Top="70" Height="55">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+            <Label Name="windTxt" Content="25 km/h" FontSize="35" FontWeight="Bold" HorizontalAlignment="Left" Canvas.Left="60" VerticalAlignment="Center" Width="193" Canvas.Top="157">
+                <Label.Effect>
+                    <DropShadowEffect/>
+                </Label.Effect>
+            </Label>
+        </Canvas>
+        <DockPanel DockPanel.Dock="Bottom" Height="170">
+            <ScrollViewer>
+                <StackPanel Width="220">
+                    <Label Content="NEWS" HorizontalAlignment="Center" FontWeight="Bold" FontSize="22"/>
+                    <ListView Name="articlesList" MouseDoubleClick="articlesList_MouseDoubleClick" />
+                </StackPanel>
+            </ScrollViewer>
+
+            <StackPanel Width="112" Height="157">
+                <Label Name="forecast1"  Content="Sun" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+                <Image Height="72" HorizontalAlignment="Center" Source="/drop.png" Width="56" />
+                <Label Name="temp1" Content="+23*C" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+            </StackPanel>
+            <StackPanel Width="112" Height="151">
+                <Label Name="forecast2" Content="Mon" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+                <Image Height="72" HorizontalAlignment="Center" Source="/iconSun.png" />
+                <Label Name="temp2" Content="+12*C" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+            </StackPanel>
+            <StackPanel Width="112" Height="152" RenderTransformOrigin="0.5,0.5">
+                <StackPanel.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0"/>
+                    </TransformGroup>
+                </StackPanel.RenderTransform>
+                <Label Name="forecast3" Content="Tue" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+                <Image Height="72" HorizontalAlignment="Center" Source="/iconSun.png" />
+                <Label Name="temp3" Content="+16*C" HorizontalAlignment="Center" FontWeight="Bold" FontSize="24"/>
+            </StackPanel>
+        </DockPanel>
+
+    </DockPanel>
+
+</Window>
